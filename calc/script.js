@@ -1,4 +1,5 @@
 function calc (){
+    debugger;
     let val = document.getElementById("value").value;
 
     let err = "Write correct";
@@ -47,6 +48,7 @@ function calc (){
 }
 
 function calcArea(area){
+    debugger;
     let areas = area.split("");
 
     let value = "";
@@ -124,6 +126,7 @@ function calcArea(area){
 }
 
 function findErr(arr){
+    debugger;
     let values = arr;
 
     let isError = false;
