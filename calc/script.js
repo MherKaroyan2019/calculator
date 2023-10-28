@@ -37,7 +37,7 @@ function calc (){
     }else if(calcArea(valRemove.join("")) == err){
         val = err;
     }else{
-        val = +calcArea(valRemove.join("")))
+        val = +calcArea(valRemove.join(""))
         if(Number.isInteger(x) == false){
             val.toFixed(2)
         }
