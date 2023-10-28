@@ -34,15 +34,20 @@ function calc (){
 
     if((brackets[0] == undefined && brackets[1] != undefined) || (brackets[1] == undefined && brackets[0] != undefined)){
         return err;
+    }else if(calcArea(valRemove.join("")) == err){
+        val = err;
     }else{
-        val = calcArea(valRemove.join(""))
+        val = +calcArea(valRemove.join("")))
+        if(Number.isInteger(x) == false){
+            val.toFixed(2)
+        }
     }
 
 
 
 
 
-    document.getElementById("result").innerHTML = (+val).toFixed(2);
+    document.getElementById("result").innerHTML = val;
 }
 
 function calcArea(area){
