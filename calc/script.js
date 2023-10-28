@@ -38,7 +38,7 @@ function calc (){
         val = err;
     }else{
         val = +calcArea(valRemove.join(""))
-        if(Number.isInteger(x) == false){
+        if(Number.isInteger(val) == false){
             val.toFixed(2)
         }
     }
