@@ -25,7 +25,6 @@ function calc (){
                 return err
             }else {
                 valRemove.splice(brackets[0], 0, areaValue)
-                console.log(valRemove,splcieArea, splcieArea.slice(1,splcieArea.length-1))
                 brackets = [];
                 i = -1;
             }
@@ -38,9 +37,6 @@ function calc (){
         val = err;
     }else{
         val = +calcArea(valRemove.join(""))
-        if(Number.isInteger(val) == false){
-            val.toFixed(2)
-        }
     }
 
 
