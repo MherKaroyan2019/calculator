@@ -1,0 +1,25 @@
+body {
+    background-color: beige;
+}
+
+.calc {
+    width: 400px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 6px 6px 14px 4px rgba(134,124,113,0.7);
+    text-align: center;
+}
+
+.calc input {
+    width: 80%;
+    height: 20px;
+    padding: auto;
+    margin-bottom: 20px;
+}
+
+.calc button {
+    width: 80%;
+    height: 30px;
+    padding: auto;
+}
